@@ -1,0 +1,17 @@
+﻿<Window x:Name="BudgetManagement" x:Class="BudgetManagment.WPFUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BudgetManagment.WPFUI"
+        mc:Ignorable="d"
+        Title="Budget Management" Height="450" Width="800">
+    <Grid>
+        <Label Content="Personal Finances" HorizontalAlignment="Left" Margin="39,10,0,0" VerticalAlignment="Top"/>
+        <DataGrid HorizontalAlignment="Left" Height="155" VerticalAlignment="Top" Width="293" Margin="39,56,0,0"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="416,56,0,0"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="416,119,0,0"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="416,189,0,0"/>
+
+    </Grid>
+</Window>

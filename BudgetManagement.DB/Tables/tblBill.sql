@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[tblBill]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [UserId] UNIQUEIDENTIFIER NOT NULL, 
+    [BillDestinationId] UNIQUEIDENTIFIER NOT NULL, 
+    [DueDate] DATETIME NOT NULL, 
+    [BillAmount] DECIMAL(18, 2) NOT NULL, 
+    [PaidOnTime] BIT NOT NULL 
+)
